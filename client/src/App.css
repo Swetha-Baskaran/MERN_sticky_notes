@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root{
+   --dark: #00296b;
+   --semi: #003f88; 
+   --medium: #00509d;
+   --darkYellow: #fdc500;
+   --lightYellow: #ffd50064;
+}
+
+::selection{
+  display: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Rubik', sans-serif;;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  background-color: rgba(181, 181, 176, 0.273);
+  border-radius: 1.5rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #fdc500;
+}
+
+@media (max-width: 300px) {
+  *{
+    font-size: 98%;
+  }
+}

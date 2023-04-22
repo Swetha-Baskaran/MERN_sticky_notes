@@ -1,7 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://mern-sticky-notes-1944ia9pd-swetha-baskaran.vercel.app";
 
 export const fetchTask = createAsyncThunk('list/fetchTask', async () => {
     const response = await axios.get(`${API_URL}/api/items`)
